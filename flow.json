@@ -51,5 +51,34 @@
         "x": 540,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "3a69d2cf570b5a3d",
+        "type": "inject",
+        "z": "6f84b747aee50ba9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Number",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "c1adb6fd65c3b5b2"
+            ]
+        ]
     }
 ]
